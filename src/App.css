@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.date-calculator {
+  padding: 16px;
+  max-width: 300px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
