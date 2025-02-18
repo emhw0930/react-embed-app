@@ -8,7 +8,7 @@ export default function DateDifferenceCalculator() {
   const calculateDifference = (date) => {
     const today = new Date();
     const pickedDate = new Date(date);
-    const timeDiff = pickedDate - today;
+    const timeDiff = today - pickedDate;
     const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
     setDaysDifference(daysDiff);
   };
@@ -16,7 +16,6 @@ export default function DateDifferenceCalculator() {
   return (
     <div className="date-calculator">
         <div className="container">
-        <h2 className="title">Days Until Selected Date</h2>
         <input
             type="date"
             className="input-date"
@@ -27,7 +26,7 @@ export default function DateDifferenceCalculator() {
             }}
         />
         {daysDifference !== null && (
-            <p className="result">{daysDifference} days left</p>
+            <p className="result">{daysDifference} days</p>
         )}
         </div>
     </div>
