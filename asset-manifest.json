@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-embed-app.git/static/css/main.20e7a276.css",
+    "main.js": "/react-embed-app.git/static/js/main.f5797ec2.js",
+    "static/js/453.ed3810f9.chunk.js": "/react-embed-app.git/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/react-embed-app.git/index.html",
+    "main.20e7a276.css.map": "/react-embed-app.git/static/css/main.20e7a276.css.map",
+    "main.f5797ec2.js.map": "/react-embed-app.git/static/js/main.f5797ec2.js.map",
+    "453.ed3810f9.chunk.js.map": "/react-embed-app.git/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20e7a276.css",
+    "static/js/main.f5797ec2.js"
+  ]
+}
